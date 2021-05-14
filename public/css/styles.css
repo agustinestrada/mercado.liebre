@@ -27,9 +27,11 @@ header{
 }
 
 .burger-menu{
-    display:;
+    display:inline-flex;
     background-color: #1259c3;
     color: #fff;
-    ;
+    size: 2em;
+    margin-bottom:10px;
+    text-align: center;
 
 }
