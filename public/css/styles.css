@@ -1,9 +1,91 @@
+/*
+Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
+
+.cuerpos-texto{
+    font-size: 12px;
+}
+
+/*HEADER*/
 
 header{
     background-color: #EAC926;
+}
+
+ul{
+    margin: 0;
+}
+
+.fas.fa-search{
+    background-color: white;
+    border-radius: 5px;
+    color: #1259c3;
+    padding: 3px;
+}
+
+.fas.fa-bars{
+    background-color: #1259c3;
+    color: #fff;
+    width: auto;
+    padding: 6px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.burger-menu{
+    text-align: center;
+}
+
+.search-bar{
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+}
+
+/*IMAGEN BANNER*/
+
+.banner{
+    border:none;
+    padding: 0;
+    height: 100%;
+}
+
+
+/*MAIN*/
+
+main{
+  background-color: #ebebeb;
+}
+
+.main{
+    width: 90%;
+    border:solid 1px #ebebeb;
+    margin-left: auto;
+    margin-right:auto ;
+}
+
+.articulo{
+    margin:10px;
+    background-color: #fff;
 }
 
 .titulares{
@@ -14,10 +96,6 @@ header{
     font-size: 18px;
 }
 
-.cuerpos-texto{
-    font-size: 12px;
-}
-
 .descuentos{
     font-size: 16px
 }
@@ -26,12 +104,85 @@ header{
     font-size: 16px
 }
 
-.burger-menu{
-    display:inline-flex;
-    background-color: #1259c3;
-    color: #fff;
-    size: 2em;
-    margin-bottom:10px;
+/*FOOTER*/
+
+
+.fas.fa-credit-card{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.fas.fa-gift{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.fas.fa-user-shield{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.alineacion{
     text-align: center;
+    margin-bottom: 10px;
+}
+
+/*MEDIA-QUERIES*/
+
+/*TELEFONO*/
+
+@media (min-width:361px){
+
+.producto{
+    display: none;
+}
+
+.nav{
+    display: none;
+}
+
+}
+
+/*COMPUTADORA*/
+
+@media (min-width:769px){
+
+.articulo{
+    margin:10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(100, 100, 100, 0.5);
+}
+
+.burger-menu{
+    display: none;
+}
+
+.producto{
+    display: contents;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.nav{
+    display: contents;
+}
+
+main section section article div i{
+    display: block;
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50% ;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
 
 }
