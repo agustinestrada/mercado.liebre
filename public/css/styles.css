@@ -30,8 +30,26 @@ header{
     background-color: #EAC926;
 }
 
+.renglon1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-ml{
+    width: 100%;
+}
+
+.barra-busqueda{
+    width: 100%;
+}
+
 ul{
     margin: 0;
+}
+
+.nav{
+    display: none;
 }
 
 .fas.fa-search{
@@ -60,6 +78,8 @@ ul{
     border-radius: 5px;
     width: 90%;
 }
+
+
 
 /*IMAGEN BANNER*/
 
@@ -94,18 +114,49 @@ main{
 
 .precio{
     font-size: 18px;
+    width: 30%;
 }
 
 .descuentos{
-    font-size: 16px
+    font-size: 16px;
+    width: 70%;
+    color: #39b54a;
+}
+
+.precio-y-descuento{
+    display: flex;
+    flex-direction: row;
 }
 
 .descripciones{
     font-size: 16px
 }
 
+.producto{
+    position: relative;
+}
+
+.fas.fa-truck{
+    display: block;
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50% ;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
 /*FOOTER*/
 
+
+footer{
+    margin-top: 30px;
+}
 
 .fas.fa-credit-card{
     color: #1259c3;
@@ -136,41 +187,98 @@ main{
 
 @media (min-width:361px){
 
-.producto{
-    display: none;
+
+/*HEADER*/
+
+.heather-section{
+    display: flex;
+    flex-direction: column;
 }
 
 .nav{
     display: none;
 }
 
+.renglon1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
 }
 
-/*COMPUTADORA*/
+.logo-ml{
+    width: 50%;
+}
 
-@media (min-width:769px){
+.tarjeta-de-credito{
+    width: 30%;
+    align-items: center;
+}
+
+.renglon1-pc{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.barra-busqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-bar{
+    margin-right: 10px;
+}
+
+
+/*MAIN*/
+
+.articulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .articulo{
     margin:10px;
     background-color: #fff;
     box-shadow: 0px 0px 10px 0px rgba(100, 100, 100, 0.5);
-}
-
-.burger-menu{
-    display: none;
+    width: 45%;
 }
 
 .producto{
-    display: contents;
+    position:relative;
     border-top: 1px solid #ebebeb;
     padding: 15px;
 }
 
-.nav{
-    display: contents;
+
+.precio{
+    font-size: 18px;
+    width: 30%;
 }
 
-main section section article div i{
+.descuentos{
+    font-size: 16px;
+    width: 70%;
+    color: #39b54a;
+}
+
+.precio-y-descuento{
+    display: flex;
+    flex-direction: row;
+}
+
+.descripciones{
+    display: none;
+}
+
+.fas.fa-truck{
     display: block;
     color: #39b54a;
     font-size: 16px;
@@ -184,5 +292,132 @@ main section section article div i{
     right: 20px;
     top: -15px;
 }
+
+
+
+/*FOOTER*/
+
+
+
+}
+
+/*COMPUTADORA*/
+
+@media (min-width:769px){
+
+/*HEADER*/
+
+.burger-menu{
+    display: none;
+}
+
+.nav-izquierda{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+
+}
+
+.nav-derecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.renglon1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-ml{
+    width: 100%;
+}
+
+.barra-busqueda{
+    width: 100%;
+}
+
+
+/*MAIN*/
+
+.articulo{
+    margin:10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(100, 100, 100, 0.5);
+    width: 25%;
+}
+
+.articulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+
+
+.producto{
+    position:relative;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.precio{
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuentos{
+    font-size: 16px;
+    width: 70%;
+    color: #39b54a;
+}
+
+.precio-y-descuento{
+    display: flex;
+    flex-direction: row;
+}
+
+.fas.fa-truck{
+    display: block;
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50% ;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+
+
+
+/*FOOTER*/
+
+
+
+
+
+
 
 }
