@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css "
+rel="stylesheet" />
     <link rel="stylesheet" href="/css/login.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,6 +51,25 @@
         <div class="banner"><img src="/img/img-home-banner.jpg" width="100%"></div>
         
         <main>
+            <div class="container2">
+                <form action="/" method="POST" class="formulario">
+
+                    <div class="formulario-renglon">
+                        <label for="user">Usuario</label>
+                        <input type="text" name="user" id="user">
+                    </div>
+                    
+                    <div class="formulario-renglon">
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+
+                    <div class="botones">
+                        <button type="submit" class="boton1"><a href="/">Registrate</a></button>
+                        <button type="reset" class="boton2">Borrar</button>
+                    </div>
+                </form>
+            </div>
             
         </main>
 

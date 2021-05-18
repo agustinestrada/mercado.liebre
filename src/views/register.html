@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css "
+rel="stylesheet" />
     <link rel="stylesheet" href="/css/register.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -67,23 +70,22 @@
                         <input type="text" name="user" id="user">
                     </div>
                     
-                    <div class="fecha-y-perfil">
-                        <div class="formulario-renglon">
-                            <label for="birth-date">Fecha de nacimiento</label>
-                            <input type="date" name="birth-date" id="birth-date">
-                        </div>
-                        
-                        <div class="perfil-de-usuario">
-                            <div class="formulario-renglon1">
-                                <label for="perfil-de-usuario">Perfil de Usuario</label>
-                                <select name="perfil-de-usuario" id="perfil-de-usuario">
-                                    <option value="Vender">Vender</option>
-                                    <option value="Comprar">Comprar</option>
-                                </select>
-                            </div>
+                    
+                    <div class="formulario-renglon2">
+                        <label for="birth-date">Fecha de nacimiento</label>
+                        <input type="date" name="birth-date" id="birth-date">
+                    </div>
+                    
+                    <div class="perfil-de-usuario">
+                        <div >
+                            <label for="perfil-de-usuario">Perfil de Usuario</label>
+                            <select name="perfil-de-usuario" id="perfil-de-usuario">
+                                <option value="Vender">Vender</option>
+                                <option value="Comprar">Comprar</option>
+                            </select>
                         </div>
                     </div>
-
+                    
                     <div class="formulario-renglon">
                         <label for="interest">Categorias de interes</label>
                         <div>
@@ -127,8 +129,8 @@
                     </div>
 
                     <div class="botones">
-                        <button type="submit"><a href="/">Registrate</a></button>
-                        <button type="reset">Borrar</button>
+                        <button type="submit" class="boton1"><a href="/">Registrate</a></button>
+                        <button type="reset" class="boton2">Borrar</button>
                     </div>
                 </form>
             </div>
