@@ -92,64 +92,12 @@ ul{
 
 /*MAIN*/
 
-main{
-  background-color: #ebebeb;
-}
 
-.main{
-    width: 90%;
-    border:solid 1px #ebebeb;
-    margin-left: auto;
-    margin-right:auto ;
-}
 
-.articulo{
-    margin:10px;
-    background-color: #fff;
-}
 
-.titulares{
-    font-size: 24px;
-}
 
-.precio{
-    font-size: 18px;
-    width: 30%;
-}
 
-.descuentos{
-    font-size: 16px;
-    width: 70%;
-    color: #39b54a;
-}
 
-.precio-y-descuento{
-    display: flex;
-    flex-direction: row;
-}
-
-.descripciones{
-    font-size: 16px
-}
-
-.producto{
-    position: relative;
-}
-
-.fas.fa-truck{
-    display: block;
-    color: #39b54a;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    background-color: #fff;
-    border-radius: 50% ;
-    position: absolute;
-    right: 20px;
-    top: -15px;
-}
 
 /*FOOTER*/
 
@@ -180,6 +128,11 @@ footer{
     text-align: center;
     margin-bottom: 10px;
 }
+
+
+
+
+
 
 /*MEDIA-QUERIES*/
 
@@ -237,61 +190,7 @@ footer{
 
 /*MAIN*/
 
-.articulos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
-.articulo{
-    margin:10px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px 0px rgba(100, 100, 100, 0.5);
-    width: 45%;
-}
-
-.producto{
-    position:relative;
-    border-top: 1px solid #ebebeb;
-    padding: 15px;
-}
-
-
-.precio{
-    font-size: 18px;
-    width: 30%;
-}
-
-.descuentos{
-    font-size: 16px;
-    width: 70%;
-    color: #39b54a;
-}
-
-.precio-y-descuento{
-    display: flex;
-    flex-direction: row;
-}
-
-.descripciones{
-    display: none;
-}
-
-.fas.fa-truck{
-    display: block;
-    color: #39b54a;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    background-color: #fff;
-    border-radius: 50% ;
-    position: absolute;
-    right: 20px;
-    top: -15px;
-}
 
 
 
@@ -300,6 +199,12 @@ footer{
 
 
 }
+
+
+
+
+
+
 
 /*COMPUTADORA*/
 
@@ -339,7 +244,6 @@ li{
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px ;
-    
 }
 
 .renglon1{
@@ -359,58 +263,9 @@ li{
 
 /*MAIN*/
 
-.articulo{
-    margin:10px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px 0px rgba(100, 100, 100, 0.5);
-    width: 25%;
-}
-
-.articulos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: nowrap;
-}
 
 
 
-.producto{
-    position:relative;
-    border-top: 1px solid #ebebeb;
-    padding: 15px;
-}
-
-.precio{
-    font-size: 18px;
-    width: 30%;
-}
-
-.descuentos{
-    font-size: 16px;
-    width: 70%;
-    color: #39b54a;
-}
-
-.precio-y-descuento{
-    display: flex;
-    flex-direction: row;
-}
-
-.fas.fa-truck{
-    display: block;
-    color: #39b54a;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    background-color: #fff;
-    border-radius: 50% ;
-    position: absolute;
-    right: 20px;
-    top: -15px;
-}
 
 
 
