@@ -2,10 +2,12 @@ const express = require('express')
 const app = express()
 const path = require('path')
 const pathViews = path.join(__dirname + '/src/views')
+const port = process.env.PORT || 3693
+
 
 app.use(express.static('public'))
 
-app.listen(3693,() =>{
+app.listen(port,() =>{
     console.log('Levantamos el servidor de Mercado Liebre');
 })
 
