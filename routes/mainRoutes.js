@@ -2,9 +2,8 @@ const express = require('express')
 const path = require('path')
 const router = express.Router()
 
+const rutasControler = require('../controllers/mainController')
 
-router.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', '/views/home.html'))
-})
+router.get('/', rutasControler.landing)
 
 module.exports = router
